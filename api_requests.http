@@ -1,0 +1,24 @@
+GET http://localhost:8081/random_quote
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8081/hash
+Accept: application/json
+Pow_task: 1818849650699650146
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8081/random_quote
+Accept: application/json
+Pow_task: 1818849650699650146
+Pow_hash: 1:5:1680091301:1818849650699650146:accd27980b729762afa6be4960f0d67f9095073f9caf829ec90eae45c61ff16a:bXq7IgRQs1w=:OTdlMzQ=
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
